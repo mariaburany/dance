@@ -1,3 +1,4 @@
+.container-fluid {}
 header {
 	background-image: url("header.jpg");
 	background-position: center;
@@ -30,23 +31,25 @@ header {
 }
 
 .welcome {
-	margin: 220px 200px 80px 40px;
+	margin: 220px 10% 80px 40px;
+	padding-right: 20%;
 }
 
 .intro {
-	margin: 100px 80px 50px 80px;
+	padding: 100px 10% 50px 10%;
+	margin-left: 10%;
 	text-align: justify;
 }
 
 .divat {
-	margin: 100px 80px 50px 80px;
+	padding: 100px 10% 50px 10%;
 	display: flex;
 	text-align: justify;
+
 }
 
 .justify {
 	text-align: justify;
-	margin-right: 20px;
 }
 
 }
@@ -54,6 +57,8 @@ header {
 	display: flex;
 	flex:wrap;
 	justify-content: center;
+	margin-left: 10%; 
+	padding-left: 10%;
 }
 
 .lablec {
@@ -83,7 +88,7 @@ header {
 }
 
 img {
-	margin: 10px;
+	padding: 10px;
 }
 
 .icon {
@@ -99,7 +104,8 @@ img {
 }
 
 .standard {
-	margin:50px 50px 50px 40px;
+	padding:50px 10% 50px 10%;
+	margin-left:10%;
 }
 
 .danceicon {
@@ -108,5 +114,6 @@ img {
 }
 
 .lv {
-	margin: 55px 400px 110px 40px;
+	padding: 55px 400px 110px 40px;
+	margin-left: 10%;
 }
